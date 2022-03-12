@@ -7,7 +7,8 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by jt on 12/26/19.
  */
-@Controller
+
+@Controller(value="cIC")
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
 
